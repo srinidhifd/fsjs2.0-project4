@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f0e8;
+}
+
+/* ========================== */
+/*           Navbar           */
+/* ========================== */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar div>img{
+    margin-left: 100px;
+}
+.navbar ul li{
+    margin: 0px 50px;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+
+/* ========================== */
+/*       Main Section         */
+/* ========================== */
+.main-section{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+/* ============ */
+/* Left Section  */
+/* ============ */
+.main-section .left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.main-section .left-section h1{
+    font-size: 4em;
+    width: 70%;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main-section .left-section p{
+    color: #3b3c36;
+    font-size: 1.2em;
+    /* width: 100%; */
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px 10px 30px 0px;
+
+}
+.main-section .main-button{
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:#39865c;
+    margin-right: 420px;
+}
+/* ======================= */
+/* Right Section  */
+/* ====================== */
+
+.main-section .right-section>div {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.main-section .right-section .top-right-image{
+margin-left: 20px;
+}
+.main-section .right-section .bottom-image{
+    margin-top: 15px;
+}
